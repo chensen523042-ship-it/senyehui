@@ -1,0 +1,83 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: syh-admin
+
+  # Jackson
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+  # 数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${SYH_DB_URL:jdbc:mysql://127.0.0.1:3306/db_syh_saas?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true}
+    username: ${SYH_DB_USERNAME:root}
+    password: ${SYH_DB_PASSWORD:root}
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      idle-timeout: 30000
+      max-lifetime: 1800000
+      connection-timeout: 10000
+
+  # Redis
+  data:
+    redis:
+      host: ${SYH_REDIS_HOST:127.0.0.1}
+      port: ${SYH_REDIS_PORT:6379}
+      database: ${SYH_REDIS_DATABASE:0}
+      timeout: 5000ms
+      lettuce:
+        pool:
+          max-active: 16
+          max-idle: 8
+          min-idle: 2
+          max-wait: 3000ms
+
+# MyBatis Plus
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# JWT 配置
+syh:
+  jwt:
+    # Base64 编码的密钥（至少 256 位 / 32 字节）- 生产环境请更换
+    secret: c2VueWVodWktc2Fhcy1wbGF0Zm9ybS1qd3Qtc2VjcmV0LWtleS0yMDI2
+    # Access Token 过期时间: 2 小时 (毫秒)
+    access-token-expiration: 7200000
+    # Refresh Token 过期时间: 7 天 (毫秒)
+    refresh-token-expiration: 604800000
+
+# Knife4j API 文档
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+# 日志
+logging:
+  level:
+    com.senyehui: debug
+    org.springframework.security: info

@@ -1,0 +1,383 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] SenYeHui SaaS Platform                                             [pom]
+[INFO] syh-common                                                         [jar]
+[INFO] syh-tenant                                                         [jar]
+[INFO] syh-security                                                       [jar]
+[INFO] syh-event                                                          [jar]
+[INFO] syh-registration                                                   [jar]
+[INFO] syh-wechat                                                         [jar]
+[INFO] 
+[INFO] -----------------------< com.senyehui:senyehui >------------------------
+[INFO] Building SenYeHui SaaS Platform 1.0.0-SNAPSHOT                     [1/7]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ senyehui ---
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-common >-----------------------
+[INFO] Building syh-common 1.0.0-SNAPSHOT                                 [2/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-common ---
+[INFO] Deleting D:\senyehui\syh-common\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-common ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-common\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-common\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-common ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 13 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-tenant >-----------------------
+[INFO] Building syh-tenant 1.0.0-SNAPSHOT                                 [3/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-tenant ---
+[INFO] Deleting D:\senyehui\syh-tenant\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-tenant ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-tenant\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-tenant\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-tenant ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 7 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] ---------------------< com.senyehui:syh-security >----------------------
+[INFO] Building syh-security 1.0.0-SNAPSHOT                               [4/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-security ---
+[INFO] Deleting D:\senyehui\syh-security\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-security ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-security\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-security\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-security ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 17 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] -----------------------< com.senyehui:syh-event >-----------------------
+[INFO] Building syh-event 1.0.0-SNAPSHOT                                  [5/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-event ---
+[INFO] Deleting D:\senyehui\syh-event\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-event ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-event\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-event\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-event ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 15 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] -------------------< com.senyehui:syh-registration >--------------------
+[INFO] Building syh-registration 1.0.0-SNAPSHOT                           [6/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-registration ---
+[INFO] Deleting D:\senyehui\syh-registration\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-registration ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-registration\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-registration\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-registration ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 8 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-wechat >-----------------------
+[INFO] Building syh-wechat 1.0.0-SNAPSHOT                                 [7/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-wechat ---
+[INFO] Deleting D:\senyehui\syh-wechat\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-wechat ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-wechat\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-wechat\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-wechat ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 6 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[7,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[15,2] 找不到符号
+  符号: 类 RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[9,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[10,27] 程序包lombok.extern.slf4j不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[23,2] 找不到符号
+  符号: 类 Slf4j
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[25,2] 找不到符号
+  符号: 类 RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[5,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[6,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[14,2] 找不到符号
+  符号: 类 Data
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[15,2] 找不到符号
+  符号: 类 EqualsAndHashCode
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[6,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[14,2] 找不到符号
+  符号: 类 RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[50,29] 方法引用无效
+  找不到符号
+    符号:   方法 getRegistrationId()
+    位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[51,29] 方法引用无效
+  找不到符号
+    符号:   方法 getStatus()
+    位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[52,29] 方法引用无效
+  找不到符号
+    符号:   方法 getExpireTime()
+    位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[60,14] 找不到符号
+  符号:   方法 setOrderNo(java.lang.String)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[61,14] 找不到符号
+  符号:   方法 setRegistrationId(java.lang.Long)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[62,14] 找不到符号
+  符号:   方法 setEventId(java.lang.Long)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[63,14] 找不到符号
+  符号:   方法 setUserId(java.lang.Long)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,14] 找不到符号
+  符号:   方法 setAmount(java.math.BigDecimal)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[65,14] 找不到符号
+  符号:   方法 setStatus(int)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[66,14] 找不到符号
+  符号:   方法 setPayChannel(java.lang.String)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[67,14] 找不到符号
+  符号:   方法 setExpireTime(java.time.LocalDateTime)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[70,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[70,56] 找不到符号
+  符号:   方法 getOrderNo()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[70,76] 找不到符号
+  符号:   方法 getAmount()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[80,18] 找不到符号
+  符号:   方法 getStatus()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[83,18] 找不到符号
+  符号:   方法 getExpireTime()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[88,14] 找不到符号
+  符号:   方法 setStatus(int)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[89,14] 找不到符号
+  符号:   方法 setPayTime(java.time.LocalDateTime)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[90,14] 找不到符号
+  符号:   方法 setTransactionId(java.lang.String)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[91,14] 找不到符号
+  符号:   方法 setPayChannel(java.lang.String)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[95,63] 找不到符号
+  符号:   方法 getRegistrationId()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[99,36] 找不到符号
+  符号:   方法 getOrderNo()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[103,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[103,65] 找不到符号
+  符号:   方法 getAmount()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[113,18] 找不到符号
+  符号:   方法 getStatus()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[117,14] 找不到符号
+  符号:   方法 setStatus(int)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[118,14] 找不到符号
+  符号:   方法 setRefundTime(java.time.LocalDateTime)
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[119,36] 找不到符号
+  符号:   方法 getAmount()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[123,63] 找不到符号
+  符号:   方法 getRegistrationId()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[129,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[129,63] 找不到符号
+  符号:   方法 getAmount()
+  位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[138,55] 方法引用无效
+  找不到符号
+    符号:   方法 getOrderNo()
+    位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[152,29] 方法引用无效
+  找不到符号
+    符号:   方法 getRegistrationId()
+    位置: 类 com.senyehui.wechat.entity.PayOrder
+[INFO] 45 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SenYeHui SaaS Platform 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] SenYeHui SaaS Platform ............................. SUCCESS [  0.170 s]
+[INFO] syh-common ......................................... SUCCESS [  3.075 s]
+[INFO] syh-tenant ......................................... SUCCESS [  1.398 s]
+[INFO] syh-security ....................................... SUCCESS [  1.307 s]
+[INFO] syh-event .......................................... SUCCESS [  1.043 s]
+[INFO] syh-registration ................................... SUCCESS [  1.258 s]
+[INFO] syh-wechat ......................................... FAILURE [  0.495 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.126 s
+[INFO] Finished at: 2026-04-01T14:47:07+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project syh-wechat: Compilation failure: Compilation failure: 
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[7,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[15,2] 找不到符号
+[ERROR]   符号: 类 RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[9,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[10,27] 程序包lombok.extern.slf4j不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[23,2] 找不到符号
+[ERROR]   符号: 类 Slf4j
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[25,2] 找不到符号
+[ERROR]   符号: 类 RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[5,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[6,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[14,2] 找不到符号
+[ERROR]   符号: 类 Data
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[15,2] 找不到符号
+[ERROR]   符号: 类 EqualsAndHashCode
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[6,14] 程序包lombok不存在
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[14,2] 找不到符号
+[ERROR]   符号: 类 RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[50,29] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getRegistrationId()
+[ERROR]     位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[51,29] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getStatus()
+[ERROR]     位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[52,29] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getExpireTime()
+[ERROR]     位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[60,14] 找不到符号
+[ERROR]   符号:   方法 setOrderNo(java.lang.String)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[61,14] 找不到符号
+[ERROR]   符号:   方法 setRegistrationId(java.lang.Long)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[62,14] 找不到符号
+[ERROR]   符号:   方法 setEventId(java.lang.Long)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[63,14] 找不到符号
+[ERROR]   符号:   方法 setUserId(java.lang.Long)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,14] 找不到符号
+[ERROR]   符号:   方法 setAmount(java.math.BigDecimal)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[65,14] 找不到符号
+[ERROR]   符号:   方法 setStatus(int)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[66,14] 找不到符号
+[ERROR]   符号:   方法 setPayChannel(java.lang.String)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[67,14] 找不到符号
+[ERROR]   符号:   方法 setExpireTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[70,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[70,56] 找不到符号
+[ERROR]   符号:   方法 getOrderNo()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[70,76] 找不到符号
+[ERROR]   符号:   方法 getAmount()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[80,18] 找不到符号
+[ERROR]   符号:   方法 getStatus()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[83,18] 找不到符号
+[ERROR]   符号:   方法 getExpireTime()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[88,14] 找不到符号
+[ERROR]   符号:   方法 setStatus(int)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[89,14] 找不到符号
+[ERROR]   符号:   方法 setPayTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[90,14] 找不到符号
+[ERROR]   符号:   方法 setTransactionId(java.lang.String)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[91,14] 找不到符号
+[ERROR]   符号:   方法 setPayChannel(java.lang.String)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[95,63] 找不到符号
+[ERROR]   符号:   方法 getRegistrationId()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[99,36] 找不到符号
+[ERROR]   符号:   方法 getOrderNo()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[103,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[103,65] 找不到符号
+[ERROR]   符号:   方法 getAmount()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[113,18] 找不到符号
+[ERROR]   符号:   方法 getStatus()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[117,14] 找不到符号
+[ERROR]   符号:   方法 setStatus(int)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[118,14] 找不到符号
+[ERROR]   符号:   方法 setRefundTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[119,36] 找不到符号
+[ERROR]   符号:   方法 getAmount()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[123,63] 找不到符号
+[ERROR]   符号:   方法 getRegistrationId()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[129,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[129,63] 找不到符号
+[ERROR]   符号:   方法 getAmount()
+[ERROR]   位置: 类型为com.senyehui.wechat.entity.PayOrder的变量 order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[138,55] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getOrderNo()
+[ERROR]     位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[152,29] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getRegistrationId()
+[ERROR]     位置: 类 com.senyehui.wechat.entity.PayOrder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :syh-wechat

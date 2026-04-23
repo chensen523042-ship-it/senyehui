@@ -1,0 +1,12 @@
+node_modules
+.git
+*.log
+*.md
+syh-admin-ui/node_modules
+syh-h5/node_modules
+.mvn
+.vscode
+.agents
+deploy
+*.bat
+*.ps1

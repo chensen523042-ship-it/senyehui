@@ -1,0 +1,68 @@
+# ===========================
+# 森野汇 SaaS — Docker Compose
+# 只跑 MySQL + Redis + 后端
+# Nginx 用宝塔面板的
+# ===========================
+
+services:
+
+  # ---------- MySQL ----------
+  mysql:
+    image: mysql:8.0
+    container_name: syh-mysql
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: syh2026
+      MYSQL_DATABASE: db_syh_saas
+      MYSQL_CHARSET: utf8mb4
+      TZ: Asia/Shanghai
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./docs/database/init.sql:/docker-entrypoint-initdb.d/01-init.sql
+      - ./docs/database/pay_order.sql:/docker-entrypoint-initdb.d/02-pay_order.sql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_general_ci
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost", "-psynh2026" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ---------- Redis ----------
+  redis:
+    image: redis:7-alpine
+    container_name: syh-redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  # ---------- 后端 API ----------
+  backend:
+    build: .
+    container_name: syh-backend
+    restart: always
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      SYH_DB_URL: jdbc:mysql://mysql:3306/db_syh_saas?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+      SYH_DB_USERNAME: root
+      SYH_DB_PASSWORD: syh2026
+      SYH_REDIS_HOST: redis
+      SYH_REDIS_PORT: 6379
+    ports:
+      - "8081:8081"
+
+volumes:
+  mysql_data:
+  redis_data:

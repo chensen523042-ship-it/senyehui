@@ -1,0 +1,52 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: syh-api
+
+  # Jackson
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+  # 数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${SYH_DB_URL:jdbc:mysql://127.0.0.1:3306/db_syh_saas?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true}
+    username: ${SYH_DB_USERNAME:root}
+    password: ${SYH_DB_PASSWORD:root}
+
+  # Redis
+  data:
+    redis:
+      host: ${SYH_REDIS_HOST:127.0.0.1}
+      port: ${SYH_REDIS_PORT:6379}
+      database: ${SYH_REDIS_DATABASE:0}
+
+# MyBatis Plus
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+
+# JWT 配置
+syh:
+  jwt:
+    secret: c2VueWVodWktc2Fhcy1wbGF0Zm9ybS1qd3Qtc2VjcmV0LWtleS0yMDI2
+    access-token-expiration: 7200000
+    refresh-token-expiration: 604800000
+
+logging:
+  level:
+    com.senyehui: debug

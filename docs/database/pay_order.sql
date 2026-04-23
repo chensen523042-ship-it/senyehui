@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS `pay_order` (
+    `id`              BIGINT PRIMARY KEY AUTO_INCREMENT,
+    `order_no`        VARCHAR(64) NOT NULL UNIQUE COMMENT '支付订单号',
+    `registration_id` BIGINT NOT NULL COMMENT '关联报名ID',
+    `event_id`        BIGINT NOT NULL COMMENT '赛事ID',
+    `user_id`         BIGINT COMMENT '用户ID',
+    `amount`          DECIMAL(10,2) NOT NULL COMMENT '支付金额',
+    `status`          TINYINT DEFAULT 0 COMMENT '0-待支付 1-已支付 2-已取消 3-已退款',
+    `pay_channel`     VARCHAR(32) DEFAULT 'mock' COMMENT '支付渠道: mock/wxpay/alipay',
+    `transaction_id`  VARCHAR(128) COMMENT '第三方交易号',
+    `pay_time`        DATETIME COMMENT '支付时间',
+    `expire_time`     DATETIME COMMENT '过期时间',
+    `refund_time`     DATETIME COMMENT '退款时间',
+    `refund_amount`   DECIMAL(10,2) COMMENT '退款金额',
+    `tenant_id`       BIGINT NOT NULL DEFAULT 1,
+    `create_by`       VARCHAR(64) DEFAULT NULL COMMENT '创建人',
+    `update_by`       VARCHAR(64) DEFAULT NULL COMMENT '更新人',
+    `create_time`     DATETIME DEFAULT CURRENT_TIMESTAMP,
+    `update_time`     DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `deleted`         TINYINT DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='支付订单表';

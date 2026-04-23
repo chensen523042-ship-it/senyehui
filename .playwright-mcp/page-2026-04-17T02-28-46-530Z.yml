@@ -1,0 +1,164 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e8]
+        - generic [ref=e10]: 森野汇
+      - menubar [ref=e14]:
+        - menuitem "工作台" [ref=e15] [cursor=pointer]:
+          - img [ref=e17]
+          - text: 工作台
+        - menuitem "赛事管理" [ref=e21] [cursor=pointer]:
+          - img [ref=e23]
+          - text: 赛事管理
+        - menuitem "报名管理" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - text: 报名管理
+        - menuitem "表单管理" [ref=e29] [cursor=pointer]:
+          - img [ref=e31]
+          - text: 表单管理
+        - menuitem "用户管理" [ref=e33] [cursor=pointer]:
+          - img [ref=e35]
+          - text: 用户管理
+        - menuitem "角色管理" [ref=e37] [cursor=pointer]:
+          - img [ref=e39]
+          - text: 角色管理
+        - menuitem "租户管理" [ref=e41] [cursor=pointer]:
+          - img [ref=e43]
+          - text: 租户管理
+        - menuitem "支付管理" [ref=e47] [cursor=pointer]:
+          - img [ref=e49]
+          - text: 支付管理
+        - menuitem "赛事分类" [ref=e52] [cursor=pointer]:
+          - img [ref=e54]
+          - text: 赛事分类
+        - menuitem "签到管理" [ref=e57] [cursor=pointer]:
+          - img [ref=e59]
+          - text: 签到管理
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - img [ref=e66] [cursor=pointer]
+          - navigation "面包屑" [ref=e68]:
+            - generic [ref=e69]:
+              - link "首页" [ref=e70]
+              - text: /
+            - link "角色管理" [ref=e72]
+        - generic [ref=e73]:
+          - img [ref=e75] [cursor=pointer]
+          - generic [ref=e77]:
+            - img [ref=e79] [cursor=pointer]
+            - superscript [ref=e83]: "3"
+          - button "超 超级管理员" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: 超
+            - generic [ref=e87]: 超级管理员
+            - img [ref=e89]
+      - generic [ref=e93]:
+        - button "新增角色" [ref=e95] [cursor=pointer]:
+          - img [ref=e97]
+          - generic [ref=e99]: 新增角色
+        - generic [ref=e101]:
+          - table [ref=e103]:
+            - rowgroup [ref=e111]:
+              - row "角色编码 角色名称 排序 状态 备注 操作" [ref=e112]:
+                - columnheader "角色编码" [ref=e113]:
+                  - generic [ref=e114]: 角色编码
+                - columnheader "角色名称" [ref=e115]:
+                  - generic [ref=e116]: 角色名称
+                - columnheader "排序" [ref=e117]:
+                  - generic [ref=e118]: 排序
+                - columnheader "状态" [ref=e119]:
+                  - generic [ref=e120]: 状态
+                - columnheader "备注" [ref=e121]:
+                  - generic [ref=e122]: 备注
+                - columnheader "操作" [ref=e123]:
+                  - generic [ref=e124]: 操作
+          - table [ref=e129]:
+            - rowgroup [ref=e137]:
+              - row "SUPER_ADMIN 超级管理员 0 正常 编辑 分配权限 删除" [ref=e138]:
+                - cell "SUPER_ADMIN" [ref=e139]:
+                  - generic [ref=e140]: SUPER_ADMIN
+                - cell "超级管理员" [ref=e141]:
+                  - generic [ref=e142]: 超级管理员
+                - cell "0" [ref=e143]:
+                  - generic [ref=e144]: "0"
+                - cell "正常" [ref=e145]:
+                  - generic [ref=e148]: 正常
+                - cell [ref=e149]
+                - cell "编辑 分配权限 删除" [ref=e150]:
+                  - generic [ref=e151]:
+                    - button "编辑" [ref=e152] [cursor=pointer]:
+                      - generic [ref=e153]: 编辑
+                    - button "分配权限" [ref=e154] [cursor=pointer]:
+                      - generic [ref=e155]: 分配权限
+                    - button "删除" [ref=e156] [cursor=pointer]:
+                      - generic [ref=e157]: 删除
+              - row "TEST_ROLE 测试角色 0 正常 自动化测试 编辑 分配权限 删除" [ref=e260]:
+                - cell "TEST_ROLE" [ref=e261]:
+                  - generic [ref=e160]: TEST_ROLE
+                - cell "测试角色" [ref=e262]:
+                  - generic [ref=e162]: 测试角色
+                - cell "0" [ref=e263]:
+                  - generic [ref=e164]: "0"
+                - cell "正常" [ref=e165]:
+                  - generic [ref=e168]: 正常
+                - cell "自动化测试" [ref=e264]:
+                  - generic [ref=e265]: 自动化测试
+                - cell "编辑 分配权限 删除" [ref=e170]:
+                  - generic [ref=e171]:
+                    - button "编辑" [ref=e172] [cursor=pointer]:
+                      - generic [ref=e173]: 编辑
+                    - button "分配权限" [ref=e174] [cursor=pointer]:
+                      - generic [ref=e175]: 分配权限
+                    - button "删除" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]: 删除
+              - row "TENANT_ADMIN 租户管理员 1 正常 编辑 分配权限 删除" [ref=e266]:
+                - cell "TENANT_ADMIN" [ref=e267]:
+                  - generic [ref=e180]: TENANT_ADMIN
+                - cell "租户管理员" [ref=e268]:
+                  - generic [ref=e182]: 租户管理员
+                - cell "1" [ref=e269]:
+                  - generic [ref=e184]: "1"
+                - cell "正常" [ref=e185]:
+                  - generic [ref=e188]: 正常
+                - cell [ref=e189]
+                - cell "编辑 分配权限 删除" [ref=e190]:
+                  - generic [ref=e191]:
+                    - button "编辑" [ref=e192] [cursor=pointer]:
+                      - generic [ref=e193]: 编辑
+                    - button "分配权限" [ref=e194] [cursor=pointer]:
+                      - generic [ref=e195]: 分配权限
+                    - button "删除" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e197]: 删除
+              - row "OPERATOR 运营人员 2 正常 编辑 分配权限 删除" [ref=e270]:
+                - cell "OPERATOR" [ref=e271]:
+                  - generic [ref=e272]: OPERATOR
+                - cell "运营人员" [ref=e273]:
+                  - generic [ref=e274]: 运营人员
+                - cell "2" [ref=e275]:
+                  - generic [ref=e276]: "2"
+                - cell "正常" [ref=e277]:
+                  - generic [ref=e280]: 正常
+                - cell [ref=e281]
+                - cell "编辑 分配权限 删除" [ref=e282]:
+                  - generic [ref=e283]:
+                    - button "编辑" [ref=e284] [cursor=pointer]:
+                      - generic [ref=e285]: 编辑
+                    - button "分配权限" [ref=e286] [cursor=pointer]:
+                      - generic [ref=e287]: 分配权限
+                    - button "删除" [ref=e288] [cursor=pointer]:
+                      - generic [ref=e289]: 删除
+  - dialog "警告" [ref=e396]:
+    - generic [ref=e397]:
+      - generic [ref=e398]:
+        - generic [ref=e399]: 警告
+        - button "关闭此对话框" [ref=e400] [cursor=pointer]:
+          - img [ref=e402]
+      - generic [ref=e405]:
+        - img [ref=e407]
+        - paragraph [ref=e410]: 确定删除角色「测试角色」吗？
+      - generic [ref=e411]:
+        - button "取消" [ref=e412] [cursor=pointer]:
+          - generic [ref=e413]: 取消
+        - button "确定" [active] [ref=e414] [cursor=pointer]:
+          - generic [ref=e415]: 确定

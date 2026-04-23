@@ -1,0 +1,223 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e8]
+      - generic [ref=e10]: 森野汇
+    - menubar [ref=e14]:
+      - menuitem "工作台" [ref=e15] [cursor=pointer]:
+        - img [ref=e17]
+        - text: 工作台
+      - menuitem "赛事管理" [ref=e21] [cursor=pointer]:
+        - img [ref=e23]
+        - text: 赛事管理
+      - menuitem "报名管理" [ref=e25] [cursor=pointer]:
+        - img [ref=e27]
+        - text: 报名管理
+      - menuitem "表单管理" [ref=e29] [cursor=pointer]:
+        - img [ref=e31]
+        - text: 表单管理
+      - menuitem "用户管理" [ref=e33] [cursor=pointer]:
+        - img [ref=e35]
+        - text: 用户管理
+      - menuitem "角色管理" [ref=e37] [cursor=pointer]:
+        - img [ref=e39]
+        - text: 角色管理
+      - menuitem "租户管理" [ref=e41] [cursor=pointer]:
+        - img [ref=e43]
+        - text: 租户管理
+      - menuitem "套餐管理" [ref=e47] [cursor=pointer]:
+        - img [ref=e49]
+        - text: 套餐管理
+      - menuitem "支付管理" [ref=e51] [cursor=pointer]:
+        - img [ref=e53]
+        - text: 支付管理
+      - menuitem "赛事分类" [ref=e56] [cursor=pointer]:
+        - img [ref=e58]
+        - text: 赛事分类
+      - menuitem "签到管理" [ref=e61] [cursor=pointer]:
+        - img [ref=e63]
+        - text: 签到管理
+      - menuitem "菜单管理" [ref=e66] [cursor=pointer]:
+        - img [ref=e68]
+        - text: 菜单管理
+      - menuitem "数据统计" [ref=e70] [cursor=pointer]:
+        - img [ref=e72]
+        - text: 数据统计
+  - generic [ref=e74]:
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - img [ref=e78] [cursor=pointer]
+        - navigation "面包屑" [ref=e80]:
+          - generic [ref=e81]:
+            - link "首页" [ref=e82]
+            - text: /
+          - link "套餐管理" [ref=e84]
+      - generic [ref=e85]:
+        - img [ref=e87] [cursor=pointer]
+        - generic [ref=e89]:
+          - img [ref=e91] [cursor=pointer]
+          - superscript [ref=e95]: "3"
+        - button "超 超级管理员" [ref=e97] [cursor=pointer]:
+          - generic [ref=e98]: 超
+          - generic [ref=e99]: 超级管理员
+          - img [ref=e101]
+    - generic [ref=e104]:
+      - button "新增套餐" [ref=e106] [cursor=pointer]:
+        - generic [ref=e107]:
+          - img [ref=e109]
+          - text: 新增套餐
+      - generic [ref=e112]:
+        - table [ref=e114]:
+          - rowgroup [ref=e123]:
+            - row "套餐名称 最大用户数 最大赛事数 月费(¥) 状态 备注 操作" [ref=e124]:
+              - columnheader "套餐名称" [ref=e125]:
+                - generic [ref=e126]: 套餐名称
+              - columnheader "最大用户数" [ref=e127]:
+                - generic [ref=e128]: 最大用户数
+              - columnheader "最大赛事数" [ref=e129]:
+                - generic [ref=e130]: 最大赛事数
+              - columnheader "月费(¥)" [ref=e131]:
+                - generic [ref=e132]: 月费(¥)
+              - columnheader "状态" [ref=e133]:
+                - generic [ref=e134]: 状态
+              - columnheader "备注" [ref=e135]:
+                - generic [ref=e136]: 备注
+              - columnheader "操作" [ref=e137]:
+                - generic [ref=e138]: 操作
+        - table [ref=e143]:
+          - rowgroup [ref=e152]:
+            - row "免费套餐 5 10 免费 正常 免费体验版，适合个人组织者 编辑 删除" [ref=e153]:
+              - cell "免费套餐" [ref=e154]:
+                - generic [ref=e155]: 免费套餐
+              - cell "5" [ref=e156]:
+                - generic [ref=e157]: "5"
+              - cell "10" [ref=e158]:
+                - generic [ref=e159]: "10"
+              - cell "免费" [ref=e160]:
+                - generic [ref=e163]: 免费
+              - cell "正常" [ref=e164]:
+                - generic [ref=e167]: 正常
+              - cell "免费体验版，适合个人组织者" [ref=e168]:
+                - generic [ref=e169]: 免费体验版，适合个人组织者
+              - cell "编辑 删除" [ref=e170]:
+                - generic [ref=e171]:
+                  - button "编辑" [ref=e172] [cursor=pointer]:
+                    - generic [ref=e173]: 编辑
+                  - button "删除" [ref=e174] [cursor=pointer]:
+                    - generic [ref=e175]: 删除
+            - row "基础套餐 20 50 ¥99 正常 适合小型赛事组织者 编辑 删除" [ref=e176]:
+              - cell "基础套餐" [ref=e177]:
+                - generic [ref=e178]: 基础套餐
+              - cell "20" [ref=e179]:
+                - generic [ref=e180]: "20"
+              - cell "50" [ref=e181]:
+                - generic [ref=e182]: "50"
+              - cell "¥99" [ref=e183]:
+                - generic [ref=e186]: ¥99
+              - cell "正常" [ref=e187]:
+                - generic [ref=e190]: 正常
+              - cell "适合小型赛事组织者" [ref=e191]:
+                - generic [ref=e192]: 适合小型赛事组织者
+              - cell "编辑 删除" [ref=e193]:
+                - generic [ref=e194]:
+                  - button "编辑" [ref=e195] [cursor=pointer]:
+                    - generic [ref=e196]: 编辑
+                  - button "删除" [ref=e197] [cursor=pointer]:
+                    - generic [ref=e198]: 删除
+            - row "专业套餐 100 500 ¥399 正常 适合中型赛事公司 编辑 删除" [ref=e199]:
+              - cell "专业套餐" [ref=e200]:
+                - generic [ref=e201]: 专业套餐
+              - cell "100" [ref=e202]:
+                - generic [ref=e203]: "100"
+              - cell "500" [ref=e204]:
+                - generic [ref=e205]: "500"
+              - cell "¥399" [ref=e206]:
+                - generic [ref=e209]: ¥399
+              - cell "正常" [ref=e210]:
+                - generic [ref=e213]: 正常
+              - cell "适合中型赛事公司" [ref=e214]:
+                - generic [ref=e215]: 适合中型赛事公司
+              - cell "编辑 删除" [ref=e216]:
+                - generic [ref=e217]:
+                  - button "编辑" [ref=e218] [cursor=pointer]:
+                    - generic [ref=e219]: 编辑
+                  - button "删除" [ref=e220] [cursor=pointer]:
+                    - generic [ref=e221]: 删除
+            - row "企业套餐 不限 不限 ¥999 正常 不限用户/赛事，适合大型赛事平台 编辑 删除" [ref=e222]:
+              - cell "企业套餐" [ref=e223]:
+                - generic [ref=e224]: 企业套餐
+              - cell "不限" [ref=e225]:
+                - generic [ref=e226]: 不限
+              - cell "不限" [ref=e227]:
+                - generic [ref=e228]: 不限
+              - cell "¥999" [ref=e229]:
+                - generic [ref=e232]: ¥999
+              - cell "正常" [ref=e233]:
+                - generic [ref=e236]: 正常
+              - cell "不限用户/赛事，适合大型赛事平台" [ref=e237]:
+                - generic [ref=e238]: 不限用户/赛事，适合大型赛事平台
+              - cell "编辑 删除" [ref=e239]:
+                - generic [ref=e240]:
+                  - button "编辑" [ref=e241] [cursor=pointer]:
+                    - generic [ref=e242]: 编辑
+                  - button "删除" [ref=e243] [cursor=pointer]:
+                    - generic [ref=e244]: 删除
+      - dialog "编辑套餐" [ref=e247]:
+        - generic [active] [ref=e248]:
+          - banner [ref=e249]:
+            - heading "编辑套餐" [level=2] [ref=e250]
+            - button "关闭此对话框" [ref=e251] [cursor=pointer]:
+              - img [ref=e253]
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - generic [ref=e258]: "* 套餐名称"
+              - textbox "* 套餐名称" [ref=e262]:
+                - /placeholder: 请输入套餐名称
+                - text: 免费套餐
+            - generic [ref=e263]:
+              - generic [ref=e264]: 最大用户数
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - button "减少数值" [ref=e267] [cursor=pointer]:
+                    - img [ref=e269]
+                  - button "增加数值" [ref=e271] [cursor=pointer]:
+                    - img [ref=e273]
+                  - spinbutton "最大用户数" [ref=e277]: "5"
+                - generic [ref=e278]: 0 表示不限
+            - generic [ref=e279]:
+              - generic [ref=e280]: 最大赛事数
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - button "减少数值" [ref=e283] [cursor=pointer]:
+                    - img [ref=e285]
+                  - button "增加数值" [ref=e287] [cursor=pointer]:
+                    - img [ref=e289]
+                  - spinbutton "最大赛事数" [ref=e293]: "10"
+                - generic [ref=e294]: 0 表示不限
+            - generic [ref=e295]:
+              - generic [ref=e296]: 月费(¥)
+              - generic [ref=e298]:
+                - button "减少数值" [ref=e299]:
+                  - img [ref=e301]
+                - button "增加数值" [ref=e303] [cursor=pointer]:
+                  - img [ref=e305]
+                - spinbutton "月费(¥)" [ref=e309]: "0.00"
+            - generic [ref=e310]:
+              - generic [ref=e311]: 状态
+              - radiogroup "状态" [ref=e313]:
+                - generic [ref=e314] [cursor=pointer]:
+                  - radio "正常" [checked] [ref=e316]
+                  - generic [ref=e318]: 正常
+                - generic [ref=e319] [cursor=pointer]:
+                  - radio "停用" [ref=e321]
+                  - generic [ref=e323]: 停用
+            - generic [ref=e324]:
+              - generic [ref=e325]: 备注
+              - textbox "备注" [ref=e328]:
+                - /placeholder: 备注信息
+                - text: 免费体验版，适合个人组织者
+          - contentinfo [ref=e329]:
+            - button "取消" [ref=e330] [cursor=pointer]:
+              - generic [ref=e331]: 取消
+            - button "确定" [ref=e332] [cursor=pointer]:
+              - generic [ref=e333]: 确定

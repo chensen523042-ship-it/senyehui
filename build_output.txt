@@ -1,0 +1,174 @@
+﻿[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] SenYeHui SaaS Platform                                             [pom]
+[INFO] syh-common                                                         [jar]
+[INFO] syh-tenant                                                         [jar]
+[INFO] syh-security                                                       [jar]
+[INFO] syh-event                                                          [jar]
+[INFO] syh-registration                                                   [jar]
+[INFO] syh-form                                                           [jar]
+[INFO] syh-wechat                                                         [jar]
+[INFO] syh-admin                                                          [jar]
+[INFO] syh-api                                                            [jar]
+[INFO] 
+[INFO] -----------------------< com.senyehui:senyehui >------------------------
+[INFO] Building SenYeHui SaaS Platform 1.0.0-SNAPSHOT                    [1/10]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ senyehui ---
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-common >-----------------------
+[INFO] Building syh-common 1.0.0-SNAPSHOT                                [2/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-common ---
+[INFO] Deleting D:\senyehui\syh-common\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-common ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-common\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-common\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-common ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 13 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-tenant >-----------------------
+[INFO] Building syh-tenant 1.0.0-SNAPSHOT                                [3/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-tenant ---
+[INFO] Deleting D:\senyehui\syh-tenant\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-tenant ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-tenant\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-tenant\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-tenant ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 7 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] ---------------------< com.senyehui:syh-security >----------------------
+[INFO] Building syh-security 1.0.0-SNAPSHOT                              [4/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-security ---
+[INFO] Deleting D:\senyehui\syh-security\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-security ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-security\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-security\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-security ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 16 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] -----------------------< com.senyehui:syh-event >-----------------------
+[INFO] Building syh-event 1.0.0-SNAPSHOT                                 [5/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-event ---
+[INFO] Deleting D:\senyehui\syh-event\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-event ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-event\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-event\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-event ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 13 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] -------------------< com.senyehui:syh-registration >--------------------
+[INFO] Building syh-registration 1.0.0-SNAPSHOT                          [6/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-registration ---
+[INFO] Deleting D:\senyehui\syh-registration\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-registration ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-registration\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-registration\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-registration ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 7 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] -----------------------< com.senyehui:syh-form >------------------------
+[INFO] Building syh-form 1.0.0-SNAPSHOT                                  [7/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-form ---
+[INFO] Deleting D:\senyehui\syh-form\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-form ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-form\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-form\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-form ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 11 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-wechat >-----------------------
+[INFO] Building syh-wechat 1.0.0-SNAPSHOT                                [8/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-wechat ---
+[INFO] Deleting D:\senyehui\syh-wechat\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-wechat ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-wechat\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-wechat\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-wechat ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] -----------------------< com.senyehui:syh-admin >-----------------------
+[INFO] Building syh-admin 1.0.0-SNAPSHOT                                 [9/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-admin ---
+[INFO] Deleting D:\senyehui\syh-admin\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-admin ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-admin ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] ------------------------< com.senyehui:syh-api >------------------------
+[INFO] Building syh-api 1.0.0-SNAPSHOT                                  [10/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ syh-api ---
+[INFO] Deleting D:\senyehui\syh-api\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-api ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 2 source files with javac [debug release 17] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SenYeHui SaaS Platform 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] SenYeHui SaaS Platform ............................. SUCCESS [  0.188 s]
+[INFO] syh-common ......................................... SUCCESS [  3.220 s]
+[INFO] syh-tenant ......................................... SUCCESS [  1.382 s]
+[INFO] syh-security ....................................... SUCCESS [  1.566 s]
+[INFO] syh-event .......................................... SUCCESS [  1.360 s]
+[INFO] syh-registration ................................... SUCCESS [  1.511 s]
+[INFO] syh-form ........................................... SUCCESS [  1.215 s]
+[INFO] syh-wechat ......................................... SUCCESS [  0.296 s]
+[INFO] syh-admin .......................................... SUCCESS [  0.578 s]
+[INFO] syh-api ............................................ SUCCESS [  0.424 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.085 s
+[INFO] Finished at: 2026-03-31T18:37:38+08:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e8]
+        - generic [ref=e10]: 森野汇
+      - menubar [ref=e14]:
+        - menuitem "工作台" [ref=e15] [cursor=pointer]:
+          - img [ref=e17]
+          - text: 工作台
+        - menuitem "赛事管理" [ref=e21] [cursor=pointer]:
+          - img [ref=e23]
+          - text: 赛事管理
+        - menuitem "报名管理" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - text: 报名管理
+        - menuitem "表单管理" [ref=e29] [cursor=pointer]:
+          - img [ref=e31]
+          - text: 表单管理
+        - menuitem "用户管理" [ref=e33] [cursor=pointer]:
+          - img [ref=e35]
+          - text: 用户管理
+        - menuitem "角色管理" [ref=e37] [cursor=pointer]:
+          - img [ref=e39]
+          - text: 角色管理
+        - menuitem "租户管理" [ref=e41] [cursor=pointer]:
+          - img [ref=e43]
+          - text: 租户管理
+        - menuitem "支付管理" [ref=e47] [cursor=pointer]:
+          - img [ref=e49]
+          - text: 支付管理
+        - menuitem "赛事分类" [ref=e52] [cursor=pointer]:
+          - img [ref=e54]
+          - text: 赛事分类
+        - menuitem "签到管理" [ref=e57] [cursor=pointer]:
+          - img [ref=e59]
+          - text: 签到管理
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - img [ref=e66] [cursor=pointer]
+          - navigation "面包屑" [ref=e68]:
+            - generic [ref=e69]:
+              - link "首页" [ref=e70]
+              - text: /
+            - link "赛事分类" [ref=e72]
+        - generic [ref=e73]:
+          - img [ref=e75] [cursor=pointer]
+          - generic [ref=e77]:
+            - img [ref=e79] [cursor=pointer]
+            - superscript [ref=e83]: "3"
+          - button "超 超级管理员" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: 超
+            - generic [ref=e87]: 超级管理员
+            - img [ref=e89]
+      - generic [ref=e93]:
+        - button "新增分类" [ref=e95] [cursor=pointer]:
+          - img [ref=e97]
+          - generic [ref=e99]: 新增分类
+        - generic [ref=e101]:
+          - table [ref=e103]:
+            - rowgroup [ref=e110]:
+              - row "分类名称 图标 排序 状态 操作" [ref=e111]:
+                - columnheader "分类名称" [ref=e112]:
+                  - generic [ref=e113]: 分类名称
+                - columnheader "图标" [ref=e114]:
+                  - generic [ref=e115]: 图标
+                - columnheader "排序" [ref=e116]:
+                  - generic [ref=e117]: 排序
+                - columnheader "状态" [ref=e118]:
+                  - generic [ref=e119]: 状态
+                - columnheader "操作" [ref=e120]:
+                  - generic [ref=e121]: 操作
+          - table [ref=e185]:
+            - rowgroup [ref=e192]:
+              - row "跨越跑 🏃 0 正常 编辑 删除" [ref=e193]:
+                - cell "跨越跑" [ref=e194]:
+                  - generic [ref=e195]: 跨越跑
+                - cell "🏃" [ref=e196]:
+                  - generic [ref=e197]: 🏃
+                - cell "0" [ref=e198]:
+                  - generic [ref=e199]: "0"
+                - cell "正常" [ref=e200]:
+                  - generic [ref=e203]: 正常
+                - cell "编辑 删除" [ref=e204]:
+                  - generic [ref=e205]:
+                    - button "编辑" [ref=e206] [cursor=pointer]:
+                      - generic [ref=e207]: 编辑
+                    - button "删除" [ref=e208] [cursor=pointer]:
+                      - generic [ref=e209]: 删除
+  - alert [ref=e210]:
+    - img [ref=e212]
+    - paragraph [ref=e214]: 创建成功

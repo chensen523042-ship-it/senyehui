@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - img [ref=e12]
+      - heading "森野汇" [level=1] [ref=e14]
+      - paragraph [ref=e15]: 体育赛事与户外活动 SaaS 管理平台
+    - generic [ref=e16]:
+      - generic [ref=e20]:
+        - img [ref=e23]
+        - textbox "请输入用户名" [ref=e25]: admin
+      - generic [ref=e29]:
+        - img [ref=e32]
+        - textbox "请输入密码" [ref=e35]: admin123
+        - img [ref=e52] [cursor=pointer]
+      - generic [ref=e39]:
+        - img [ref=e42]
+        - 'textbox "租户ID (默认: 1)" [ref=e46]': "1"
+      - button "登 录" [ref=e47] [cursor=pointer]:
+        - generic [ref=e48]: 登 录
+    - generic [ref=e49]: © 2026 森野汇 · 赛事管理云平台
+  - alert [ref=e55]:
+    - img [ref=e57]
+    - paragraph [ref=e59]: 请求错误 (502)

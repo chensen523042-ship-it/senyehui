@@ -1,0 +1,608 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "前往 Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&ictx=0&sa=X&ved=0ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QpYkNCAs
+          - img "前往 Google 首页" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "搜索" [ref=e23]: Claude Code Claude Code
+          - generic [ref=e24]:
+            - button "清除" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "按语音搜索" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "按图搜索" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "搜索" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "设置" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google 应用" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "登录" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DClaude%2BCode%26sca_esv%3D4074d84388868a32%26source%3Dhp%26ei%3D9b_gaefcAeTSkPIP5YGDyQI%26iflsig%3DAFdpzrgAAAAAaeDOBTJpdeR-XOuqRHrf5KK48km4QQwU%26ved%3D0ahUKEwinq6LImvKTAxVkKUQIHeXAICkQ4dUDCA4%26uact%3D5%26oq%3DClaude%2BCode%26gs_lp%3DEgdnd3Mtd2l6IgtDbGF1ZGUgQ29kZUgRUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAA%26sclient%3Dgws-wiz%26sei%3DE8Dgad2gMd-xur8P8PUF&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI 模式" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&udm=50&source=hp&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&aep=1&ntc=1&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q2J8OegQIBxAE
+              - generic [ref=e78]: AI 模式
+          - listitem [ref=e79]:
+            - link "全部" [disabled] [ref=e80]:
+              - generic [ref=e82]: 全部
+          - listitem [ref=e83]:
+            - link "图片" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=4074d84388868a32&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=Claude+Code&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QtKgLegQICxAB
+              - generic [ref=e86]: 图片
+          - listitem [ref=e87]:
+            - link "视频" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=4074d84388868a32&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=Claude+Code&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QtKgLegQIFxAB
+              - generic [ref=e90]: 视频
+          - listitem [ref=e91]:
+            - link "新闻" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=4074d84388868a32&q=Claude+Code&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q0pQJegQIExAB
+              - generic [ref=e94]: 新闻
+          - listitem [ref=e95]:
+            - link "购物" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=4074d84388868a32&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=Claude+Code&ved=1t:220175&ictx=111
+              - generic [ref=e98]: 购物
+          - listitem [ref=e99]:
+            - link "短视频" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=4074d84388868a32&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=Claude+Code&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Qs6gLegQIDBAB
+              - generic [ref=e102]: 短视频
+          - listitem [ref=e103]:
+            - button "更多过滤条件" [ref=e104] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: 更多
+                  - img [ref=e109]
+        - button "工具" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: 工具
+            - img [ref=e117]
+    - heading "搜索结果" [level=1] [ref=e119]
+    - main [ref=e125]:
+      - region "广告" [ref=e128]:
+        - generic [ref=e129]:
+          - heading "赞助商搜索结果" [level=2] [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e142]:
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - 'link "Codex: Cloud Coding Agent chatgpt.com https://www.chatgpt.com" [ref=e150] [cursor=pointer]':
+                    - /url: https://chatgpt.com/codex
+                    - 'heading "Codex: Cloud Coding Agent" [level=3] [ref=e151]'
+                    - generic [ref=e157]:
+                      - generic [ref=e159]: chatgpt.com
+                      - generic [ref=e160]: https://www.chatgpt.com
+                  - button "为什么会显示该广告？" [ref=e163] [cursor=pointer]:
+                    - img [ref=e165]
+                - generic [ref=e169]: "Codex Desktop App — Use the Codex App across your workflow - IDE, GitHub, and cloud tasks. Powered by ChatGPT. Work with Codex across your dev workflow: IDE, GitHub, and cloud agents in one app."
+                - generic [ref=e170]:
+                  - link "ChatGPT Codex" [ref=e173] [cursor=pointer]:
+                    - /url: https://chatgpt.com/codex/?sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QwgUoAXoECA0QEA
+                    - img [ref=e175]
+                    - generic [ref=e177]: ChatGPT Codex
+                  - 'link "Codex: Code From Your Terminal" [ref=e180] [cursor=pointer]':
+                    - /url: /aclk?sa=L&ai=DChsSEwitmJTXmvKTAxVtM0QIHXWQLFEYACICCAEQBhoCZHo&co=1&ase=2&gclid=EAIaIQobChMIrZiU15rykwMVbTNECB11kCxREAAYASAEEgKUQvD_BwE&cid=CAASuwHkaFzxRQMJplUjFXL4v-Xy87yTPp3CctWBHkgoLzAKENeN0WGXwRXYHuJVHjdoZQ2F9pjHJFsF2cMatathmppHmYFk-HuI_6OPddIRfxEEXIxhyLIQwe29DA08qmGDjzqUFCqYBxONhT6uJEb0WYlOgPifKbeeBKjWGoEF2VDvfKIgTkeYhDsS0NXWL-HAmOfX66bD0hcTtkezUzA1mYL4DUAMjSqSpG4mw7IDjqEpUa9A-AJqTswqrjNn&cce=2&category=acrcp_v1_32&sig=AOD64_3EladbXskeNjFEoYrzHY9gtmP-xw&q=&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QwgUoA3oECA0QEg&adurl=
+                    - img [ref=e182]
+                    - generic [ref=e184]: "Codex: Code From Your Terminal"
+                  - link "Get the Codex App Today" [ref=e187] [cursor=pointer]:
+                    - /url: /aclk?sa=L&ai=DChsSEwitmJTXmvKTAxVtM0QIHXWQLFEYACICCAEQBxoCZHo&co=1&ase=2&gclid=EAIaIQobChMIrZiU15rykwMVbTNECB11kCxREAAYASAFEgL9R_D_BwE&cid=CAASuwHkaFzxRQMJplUjFXL4v-Xy87yTPp3CctWBHkgoLzAKENeN0WGXwRXYHuJVHjdoZQ2F9pjHJFsF2cMatathmppHmYFk-HuI_6OPddIRfxEEXIxhyLIQwe29DA08qmGDjzqUFCqYBxONhT6uJEb0WYlOgPifKbeeBKjWGoEF2VDvfKIgTkeYhDsS0NXWL-HAmOfX66bD0hcTtkezUzA1mYL4DUAMjSqSpG4mw7IDjqEpUa9A-AJqTswqrjNn&cce=2&category=acrcp_v1_32&sig=AOD64_3Am7zBQo7sgz3fSgDfCo3CvkZNlw&q=&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QwgUoBXoECA0QFA&adurl=
+                    - img [ref=e189]
+                    - generic [ref=e191]: Get the Codex App Today
+                  - link "Explore OpenAI Tools" [ref=e194] [cursor=pointer]:
+                    - /url: https://chatgpt.com/business?sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QwgUoB3oECA0QFg
+                    - img [ref=e196]
+                    - generic [ref=e198]: Explore OpenAI Tools
+                  - link "ChatGPT Business" [ref=e201] [cursor=pointer]:
+                    - /url: https://chatgpt.com/business/business-plan?sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QwgUoCXoECA0QGA
+                    - img [ref=e203]
+                    - generic [ref=e205]: ChatGPT Business
+              - generic [ref=e212]:
+                - generic [ref=e213]:
+                  - link "Agentic coding | Claude Code by Anthropic | Built for developers claude.com https://www.claude.com" [ref=e214] [cursor=pointer]:
+                    - /url: https://claude.com/product/claude-code
+                    - heading "Agentic coding | Claude Code by Anthropic | Built for developers" [level=3] [ref=e215]
+                    - generic [ref=e221]:
+                      - generic [ref=e223]: claude.com
+                      - generic [ref=e224]: https://www.claude.com
+                  - button "为什么会显示该广告？" [ref=e227] [cursor=pointer]:
+                    - img [ref=e229]
+                - generic [ref=e234]:
+                  - text: Build, fix & ship faster with
+                  - emphasis [ref=e235]: Claude Code
+                  - text: . AI assistance directly in your terminal. Ship better
+                  - emphasis [ref=e236]: code
+                  - text: ", faster with"
+                  - emphasis [ref=e237]: Claude Code
+                  - text: ", your AI pair programmer."
+                - generic [ref=e238]:
+                  - link "Install Claude Code" [ref=e241] [cursor=pointer]:
+                    - /url: https://claude.com/product/claude-code?utm_source=google&utm_medium=paid_search_coder&utm_campaign=acq_code_us_q3&utm_content=getstarted_text_v1&utm_term=nonbrand_%7Bkeyword%7D&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QwgUoAXoECDMQEA
+                    - img [ref=e243]
+                    - generic [ref=e245]: Install Claude Code
+                  - link "Claude Code Desktop" [ref=e248] [cursor=pointer]:
+                    - /url: https://code.claude.com/docs/en/desktop?utm_source=google&utm_medium=pse_codr&utm_campaign=acq_code_us&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QwgUoA3oECDMQEg
+                    - img [ref=e250]
+                    - generic [ref=e252]: Claude Code Desktop
+            - button "隐藏赞助商搜索结果" [ref=e254] [cursor=pointer]:
+              - separator [ref=e255]
+              - generic [ref=e256]:
+                - generic [ref=e257]: 隐藏赞助商搜索结果
+                - img [ref=e259]
+      - generic [ref=e264]:
+        - generic [ref=e267]:
+          - heading "Web results" [level=2] [ref=e268]
+          - generic [ref=e269]:
+            - generic [ref=e272]:
+              - link "Claude Code overview - Claude Code Docs claude.com https://code.claude.com › docs › overview" [ref=e274] [cursor=pointer]:
+                - /url: https://code.claude.com/docs/en/overview
+                - heading "Claude Code overview - Claude Code Docs" [level=3] [ref=e275]
+                - generic [ref=e280]:
+                  - generic [ref=e282]: claude.com
+                  - generic [ref=e284]: https://code.claude.com › docs › overview
+              - generic [ref=e285]:
+                - generic [ref=e286]: ·
+                - link "翻译此页" [ref=e287] [cursor=pointer]:
+                  - /url: https://code.claude.com/docs/en/overview
+              - button "关于这条结果的详细信息" [ref=e288] [cursor=pointer]:
+                - img [ref=e291]
+            - generic [ref=e295]:
+              - text: Claude Code is an
+              - emphasis [ref=e296]: AI-powered coding assistant
+              - text: that helps you build features, fix bugs, and automate development tasks. It understands your entire codebase and ...
+        - generic [ref=e297]:
+          - generic [ref=e305]:
+            - heading "Claude" [level=2] [ref=e308]
+            - generic [ref=e309]:
+              - generic [ref=e311]: 语言模型
+              - button "Claude的更多选项" [ref=e317] [cursor=pointer]:
+                - img "Claude的更多选项" [ref=e318]:
+                  - img [ref=e320]
+          - complementary "精选搜索结果" [ref=e326]:
+            - generic [ref=e328]:
+              - list [ref=e331]:
+                - listitem [ref=e332]:
+                  - 'button "How to Use Claude Code Safely: A Non-Technical Guide to ...的图片" [ref=e335] [cursor=pointer]':
+                    - 'img "How to Use Claude Code Safely: A Non-Technical Guide to ...的图片" [ref=e338]'
+                - listitem [ref=e339]:
+                  - button "Claude Code Experience | kean.blog的图片" [ref=e342] [cursor=pointer]:
+                    - img "Claude Code Experience | kean.blog的图片" [ref=e345]
+                - listitem [ref=e346]:
+                  - 'button "How to Use Claude Code: A Guide to Slash Commands, Agents ...的图片" [ref=e349] [cursor=pointer]':
+                    - 'img "How to Use Claude Code: A Guide to Slash Commands, Agents ...的图片" [ref=e352]'
+                - listitem [ref=e353]:
+                  - link [ref=e357] [cursor=pointer]:
+                    - /url: /search?sca_esv=4074d84388868a32&q=Claude+Code&udm=2&source=univ&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QnN8JegQIKBAD
+                    - img [ref=e360]
+              - generic [ref=e367]:
+                - generic [ref=e368]: Claude是由美国科技公司Anthropic开发的大型语言模型，其最新版本为Claude 4.6 Sonnet/Opus与Claude 4.5 Haiku。
+                - generic [ref=e369]:
+                  - text: 来源：
+                  - link "维基百科" [ref=e370] [cursor=pointer]:
+                    - /url: https://zh.wikipedia.org/zh-cn/Claude_(%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B)
+                    - generic [ref=e372]: 维基百科
+          - generic [ref=e375]:
+            - generic [ref=e378]:
+              - link "Claude Claude https://claude.ai" [ref=e380] [cursor=pointer]:
+                - /url: https://claude.ai/
+                - heading "Claude" [level=3] [ref=e381]
+                - generic [ref=e386]:
+                  - generic [ref=e388]: Claude
+                  - generic [ref=e390]: https://claude.ai
+              - generic [ref=e391]:
+                - generic [ref=e392]: ·
+                - link "翻译此页" [ref=e393] [cursor=pointer]:
+                  - /url: https://claude.ai/
+              - button "关于这条结果的详细信息" [ref=e394] [cursor=pointer]:
+                - img [ref=e397]
+            - generic [ref=e401]:
+              - emphasis [ref=e402]: Claude
+              - text: is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write
+              - emphasis [ref=e403]: code
+              - text: ", and think through your hardest work."
+        - generic [ref=e407]:
+          - generic [ref=e410]:
+            - link "anthropics/claude-code GitHub https://github.com › anthropics › claude-code" [ref=e412] [cursor=pointer]:
+              - /url: https://github.com/anthropics/claude-code
+              - heading "anthropics/claude-code" [level=3] [ref=e413]
+              - generic [ref=e418]:
+                - generic [ref=e420]: GitHub
+                - generic [ref=e422]: https://github.com › anthropics › claude-code
+            - generic [ref=e423]:
+              - generic [ref=e424]: ·
+              - link "翻译此页" [ref=e425] [cursor=pointer]:
+                - /url: https://github.com/anthropics/claude-code
+            - button "关于这条结果的详细信息" [ref=e426] [cursor=pointer]:
+              - img [ref=e429]
+          - generic [ref=e433]:
+            - emphasis [ref=e434]: Claude Code
+            - text: is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks.
+        - generic [ref=e436]:
+          - generic [ref=e448]:
+            - generic [ref=e452]:
+              - generic [ref=e453]: 首发日期
+              - generic [ref=e455]: 2023 年 3 月
+            - generic [ref=e459]:
+              - generic [ref=e460]: 开发者
+              - link "Anthropic" [ref=e463] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Anthropic&stick=H4sIAAAAAAAAAONgVuLVT9c3NEwuLioqLDKqWsTK6ZhXklGUX5CZDACv8lDrHQAAAA&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00QmxN6BAgeEAI
+            - generic [ref=e467]:
+              - generic [ref=e468]: 当前版本
+              - generic [ref=e470]: 4.6 Sonnet; 2026年2月17日，13天前 4.6 Opus; 2026年2月5日，25天前 4.5 Haiku; 2025年10月15日，4个月前
+            - generic [ref=e474]:
+              - generic [ref=e475]: 类型
+              - generic [ref=e477]: LLM; GPT; LxM
+            - generic [ref=e481]:
+              - generic [ref=e482]: 许可协定
+              - generic [ref=e484]: 专有
+            - generic [ref=e488]:
+              - generic [ref=e489]: 首次发布
+              - generic [ref=e491]: 1.0 & 1.0 Instant; 2023年3月14日，2年前
+          - generic [ref=e493]:
+            - generic [ref=e495]:
+              - heading "视频" [level=2] [ref=e496]
+              - button "关于这条结果的详细信息" [ref=e497] [cursor=pointer]:
+                - img [ref=e500]
+            - generic [ref=e503]:
+              - generic [ref=e509]:
+                - generic [ref=e510]:
+                  - generic [ref=e511]:
+                    - link "Claude Code - Full Tutorial for Beginners YouTube Tech With Tim 1 个月前" [ref=e513] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=ntDIxaeo3Wg
+                      - heading "Claude Code - Full Tutorial for Beginners YouTube Tech With Tim 1 个月前" [level=3] [ref=e514]:
+                        - generic [ref=e517]: Claude Code - Full Tutorial for Beginners
+                        - generic [ref=e519]:
+                          - generic [ref=e520]:
+                            - text: YouTube
+                            - generic [ref=e521]: · Tech With Tim
+                          - generic [ref=e522]: 1 个月前
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Tech With Tim
+                        - button "关于这条结果的详细信息" [ref=e523] [cursor=pointer]:
+                          - img [ref=e526]
+                  - button "Claude Code - Full Tutorial for Beginners，由Tech With Tim上传到YouTube上. 在 Google 上播放. 35:49" [ref=e528] [cursor=pointer]:
+                    - generic [ref=e529]:
+                      - img [ref=e535]
+                      - generic [ref=e538]:
+                        - generic [ref=e539]: 35:49
+                        - img [ref=e542]
+                - button "在此视频中，有 15 个重要时刻" [ref=e548] [cursor=pointer]:
+                  - generic [ref=e557]:
+                    - generic [ref=e560]: 在此视频中，有 15 个重要时刻
+                    - img [ref=e562]
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - generic [ref=e571]:
+                    - link "Claude Code Tutorial - Build Apps 10x Faster with AI YouTube Programming with Mosh 3 周前" [ref=e573] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=IuyVVtr1uhY
+                      - heading "Claude Code Tutorial - Build Apps 10x Faster with AI YouTube Programming with Mosh 3 周前" [level=3] [ref=e574]:
+                        - generic [ref=e577]: Claude Code Tutorial - Build Apps 10x Faster with AI
+                        - generic [ref=e579]:
+                          - generic [ref=e580]:
+                            - text: YouTube
+                            - generic [ref=e581]: · Programming with Mosh
+                          - generic [ref=e582]: 3 周前
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Programming with Mosh
+                        - button "关于这条结果的详细信息" [ref=e583] [cursor=pointer]:
+                          - img [ref=e586]
+                  - button "Claude Code Tutorial - Build Apps 10x Faster with AI，由Programming with Mosh上传到YouTube上. 在 Google 上播放. 58:11" [ref=e588] [cursor=pointer]:
+                    - generic [ref=e589]:
+                      - img [ref=e595]
+                      - generic [ref=e598]:
+                        - generic [ref=e599]: 58:11
+                        - img [ref=e602]
+                - button "在此视频中，有 16 个重要时刻" [ref=e608] [cursor=pointer]:
+                  - generic [ref=e617]:
+                    - generic [ref=e620]: 在此视频中，有 16 个重要时刻
+                    - img [ref=e622]
+              - generic [ref=e628]:
+                - generic [ref=e629]:
+                  - generic [ref=e630]:
+                    - link "FULL Claude Code Tutorial for Beginners in 2026! (Step-By ... YouTube Tech With Tim 2 周前" [ref=e632] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=qYqIhX9hTQk
+                      - heading "FULL Claude Code Tutorial for Beginners in 2026! (Step-By ... YouTube Tech With Tim 2 周前" [level=3] [ref=e633]:
+                        - generic [ref=e636]: FULL Claude Code Tutorial for Beginners in 2026! (Step-By ...
+                        - generic [ref=e638]:
+                          - generic [ref=e639]:
+                            - text: YouTube
+                            - generic [ref=e640]: · Tech With Tim
+                          - generic [ref=e641]: 2 周前
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Tech With Tim
+                        - button "关于这条结果的详细信息" [ref=e642] [cursor=pointer]:
+                          - img [ref=e645]
+                  - button "FULL Claude Code Tutorial for Beginners in 2026! (Step-By ...，由Tech With Tim上传到YouTube上. 在 Google 上播放. 15:10" [ref=e647] [cursor=pointer]:
+                    - generic [ref=e648]:
+                      - img [ref=e651]
+                      - generic [ref=e654]:
+                        - generic [ref=e655]: 15:10
+                        - img [ref=e658]
+                - button "在此视频中，有 9 个重要时刻" [ref=e664] [cursor=pointer]:
+                  - generic [ref=e667]:
+                    - generic [ref=e670]: 在此视频中，有 9 个重要时刻
+                    - img [ref=e672]
+            - link "查看所有视频" [ref=e676] [cursor=pointer]:
+              - /url: /search?sca_esv=4074d84388868a32&udm=7&q=Claude+Code&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8ccDKAJ6BAgpEAQ
+              - separator [ref=e677]
+              - generic [ref=e678]:
+                - generic [ref=e679]: 查看全部
+                - img [ref=e681]
+        - generic [ref=e685]:
+          - heading "Web results" [level=2] [ref=e686]
+          - generic [ref=e687]:
+            - generic [ref=e690]:
+              - link "Claude Code 101 Skilljar https://anthropic.skilljar.com › claude-code-..." [ref=e692] [cursor=pointer]:
+                - /url: https://anthropic.skilljar.com/claude-code-101
+                - heading "Claude Code 101" [level=3] [ref=e693]
+                - generic [ref=e698]:
+                  - generic [ref=e700]: Skilljar
+                  - generic [ref=e702]: https://anthropic.skilljar.com › claude-code-...
+              - generic [ref=e703]:
+                - generic [ref=e704]: ·
+                - link "翻译此页" [ref=e705] [cursor=pointer]:
+                  - /url: https://anthropic.skilljar.com/claude-code-101
+              - button "关于这条结果的详细信息" [ref=e706] [cursor=pointer]:
+                - img [ref=e709]
+            - generic [ref=e713]:
+              - text: This course teaches developers
+              - emphasis [ref=e714]: how to use Claude Code effectively
+              - text: ", whether you're new to software engineering or an experienced engineer who hasn't yet worked ..."
+        - generic [ref=e718]:
+          - heading "赞助商搜索结果" [level=2] [ref=e724]
+          - generic [ref=e725]:
+            - generic [ref=e731]:
+              - generic [ref=e736]:
+                - generic [ref=e737]:
+                  - 'link "Codex: Cloud Coding Agent chatgpt.com https://www.chatgpt.com" [ref=e738] [cursor=pointer]':
+                    - /url: https://chatgpt.com/codex
+                    - 'heading "Codex: Cloud Coding Agent" [level=3] [ref=e739]'
+                    - generic [ref=e745]:
+                      - generic [ref=e747]: chatgpt.com
+                      - generic [ref=e748]: https://www.chatgpt.com
+                  - button "为什么会显示该广告？" [ref=e751] [cursor=pointer]:
+                    - img [ref=e753]
+                - generic [ref=e757]: Codex Desktop App — Let Codex handle big refactors while you focus on shipping. Try the Codex App today. Delegate...
+                - generic [ref=e759]:
+                  - text: ‎
+                  - link "ChatGPT Codex" [ref=e760] [cursor=pointer]:
+                    - /url: https://chatgpt.com/codex/
+                  - text: · ‎
+                  - 'link "Codex: Code From Your Terminal" [ref=e761] [cursor=pointer]':
+                    - /url: /aclk?sa=L&ai=DChsSEwitmJTXmvKTAxVtM0QIHXWQLFEYACICCAIQAxoCZHo&co=1&ase=2&gclid=EAIaIQobChMIrZiU15rykwMVbTNECB11kCxREAMYASACEgJpLPD_BwE&cid=CAASuwHkaFzxRQMJplUjFXL4v-Xy87yTPp3CctWBHkgoLzAKENeN0WGXwRXYHuJVHjdoZQ2F9pjHJFsF2cMatathmppHmYFk-HuI_6OPddIRfxEEXIxhyLIQwe29DA08qmGDjzqUFCqYBxONhT6uJEb0WYlOgPifKbeeBKjWGoEF2VDvfKIgTkeYhDsS0NXWL-HAmOfX66bD0hcTtkezUzA1mYL4DUAMjSqSpG4mw7IDjqEpUa9A-AJqTswqrjNn&cce=2&category=acrcp_v1_32&sig=AOD64_1-rc0D7UtNmXwHiN_amGl3ip1RNg&adurl=&q=
+                  - text: · ‎
+                  - link "Get the Codex App Today" [ref=e762] [cursor=pointer]:
+                    - /url: /aclk?sa=L&ai=DChsSEwitmJTXmvKTAxVtM0QIHXWQLFEYACICCAIQBBoCZHo&co=1&ase=2&gclid=EAIaIQobChMIrZiU15rykwMVbTNECB11kCxREAMYASADEgIhWvD_BwE&cid=CAASuwHkaFzxRQMJplUjFXL4v-Xy87yTPp3CctWBHkgoLzAKENeN0WGXwRXYHuJVHjdoZQ2F9pjHJFsF2cMatathmppHmYFk-HuI_6OPddIRfxEEXIxhyLIQwe29DA08qmGDjzqUFCqYBxONhT6uJEb0WYlOgPifKbeeBKjWGoEF2VDvfKIgTkeYhDsS0NXWL-HAmOfX66bD0hcTtkezUzA1mYL4DUAMjSqSpG4mw7IDjqEpUa9A-AJqTswqrjNn&cce=2&category=acrcp_v1_32&sig=AOD64_13SX9dxtsqzmeh4B8SOBpH89bl9w&adurl=&q=
+              - generic [ref=e767]:
+                - generic [ref=e768]:
+                  - link "Cursor Cursor https://www.cursor.com" [ref=e769] [cursor=pointer]:
+                    - /url: https://cursor.com/
+                    - heading "Cursor" [level=3] [ref=e770]
+                    - generic [ref=e776]:
+                      - generic [ref=e778]: Cursor
+                      - generic [ref=e779]: https://www.cursor.com
+                  - button "为什么会显示该广告？" [ref=e782] [cursor=pointer]:
+                    - img [ref=e784]
+                - generic [ref=e788]: AI Coding Platform — Trusted by Fortune 500 and millions of developers worldwide. Try it now.
+            - button "隐藏赞助商搜索结果" [ref=e789] [cursor=pointer]:
+              - separator [ref=e790]
+              - generic [ref=e791]:
+                - generic [ref=e792]: 隐藏赞助商搜索结果
+                - img [ref=e794]
+        - generic [ref=e799]:
+          - generic [ref=e802]:
+            - link "Claude Code | Anthropic's agentic coding system Anthropic https://www.anthropic.com › product › cla..." [ref=e804] [cursor=pointer]:
+              - /url: https://www.anthropic.com/product/claude-code
+              - heading "Claude Code | Anthropic's agentic coding system" [level=3] [ref=e805]
+              - generic [ref=e810]:
+                - generic [ref=e812]: Anthropic
+                - generic [ref=e814]: https://www.anthropic.com › product › cla...
+            - generic [ref=e815]:
+              - generic [ref=e816]: ·
+              - link "翻译此页" [ref=e817] [cursor=pointer]:
+                - /url: https://www.anthropic.com/product/claude-code
+            - button "关于这条结果的详细信息" [ref=e818] [cursor=pointer]:
+              - img [ref=e821]
+          - generic [ref=e825]:
+            - emphasis [ref=e826]: Claude Code
+            - text: is an agentic coding system that reads your codebase, makes changes across files, runs tests, and delivers committed code.
+        - generic [ref=e830]:
+          - generic [ref=e833]:
+            - 'link "Getting Started with Claude Code: A Researcher''s Setup Guide Substack · A Causal Affair 150+ 个赞 · 2周前" [ref=e835] [cursor=pointer]':
+              - /url: https://paulgp.substack.com/p/getting-started-with-claude-code
+              - 'heading "Getting Started with Claude Code: A Researcher''s Setup Guide" [level=3] [ref=e836]'
+              - generic [ref=e841]:
+                - generic [ref=e843]: Substack · A Causal Affair
+                - generic [ref=e845]: 150+ 个赞 · 2周前
+            - button "关于这条结果的详细信息" [ref=e846] [cursor=pointer]:
+              - img [ref=e849]
+          - generic [ref=e853]:
+            - emphasis [ref=e854]: Claude Code is an AI assistant that runs in your terminal
+            - text: . You type natural language, and it reads your files, writes code, executes scripts, ...
+        - generic [ref=e858]:
+          - generic [ref=e861]:
+            - 'link "Claude Code: What It Is, How It''s Different, and Why Non- ... Product Talk https://www.producttalk.org › claude-code-..." [ref=e863] [cursor=pointer]':
+              - /url: https://www.producttalk.org/claude-code-what-it-is-and-how-its-different/?srsltid=AfmBOoppSr3BGc8RPrh7FYaTQd4D4FLvkNeL-olyzBcdde9l9PuSc6Zx
+              - 'heading "Claude Code: What It Is, How It''s Different, and Why Non- ..." [level=3] [ref=e864]'
+              - generic [ref=e869]:
+                - generic [ref=e871]: Product Talk
+                - generic [ref=e873]: https://www.producttalk.org › claude-code-...
+            - generic [ref=e874]:
+              - generic [ref=e875]: ·
+              - link "翻译此页" [ref=e876] [cursor=pointer]:
+                - /url: https://www.producttalk.org/claude-code-what-it-is-and-how-its-different/
+            - button "关于这条结果的详细信息" [ref=e877] [cursor=pointer]:
+              - img [ref=e880]
+          - generic [ref=e883]:
+            - generic [ref=e884]: 2025年10月29日 —
+            - generic [ref=e885]:
+              - text: If you use
+              - emphasis [ref=e886]: Claude Code
+              - text: ", you simply download Codex (ChatGPT's equivalent to"
+              - emphasis [ref=e887]: Claude Code
+              - text: ) and point it at the same markdown files
+              - emphasis [ref=e888]: Claude Code
+              - text: was ...
+        - generic [ref=e892]:
+          - generic [ref=e895]:
+            - link "4 months of Claude Code and honestly the hardest part isn ... Reddit · r/ClaudeAI 320+ 条评论 · 1个月前" [ref=e897] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ClaudeAI/comments/1rr1069/4_months_of_claude_code_and_honestly_the_hardest/
+              - heading "4 months of Claude Code and honestly the hardest part isn ..." [level=3] [ref=e898]
+              - generic [ref=e903]:
+                - generic [ref=e905]: Reddit · r/ClaudeAI
+                - generic [ref=e907]: 320+ 条评论 · 1个月前
+            - button "关于这条结果的详细信息" [ref=e908] [cursor=pointer]:
+              - img [ref=e911]
+          - generic [ref=e915]:
+            - text: The hard part is making design decisions.
+            - emphasis [ref=e916]: Claude Code will build literally anything you ask for
+            - text: but it can't tell you if it looks good. I spent ...
+        - generic [ref=e920]:
+          - generic [ref=e923]:
+            - link "How I use Claude Code (+ my best tips) Builder.io https://www.builder.io › blog › claude-code" [ref=e925] [cursor=pointer]:
+              - /url: https://www.builder.io/blog/claude-code
+              - heading "How I use Claude Code (+ my best tips)" [level=3] [ref=e926]
+              - generic [ref=e931]:
+                - generic [ref=e933]: Builder.io
+                - generic [ref=e935]: https://www.builder.io › blog › claude-code
+            - generic [ref=e936]:
+              - generic [ref=e937]: ·
+              - link "翻译此页" [ref=e938] [cursor=pointer]:
+                - /url: https://www.builder.io/blog/claude-code
+            - button "关于这条结果的详细信息" [ref=e939] [cursor=pointer]:
+              - img [ref=e942]
+          - generic [ref=e945]:
+            - generic [ref=e946]: 2025年7月11日 —
+            - generic [ref=e947]:
+              - emphasis [ref=e948]: Claude Code hooks are shell commands
+              - text: that execute at various points in Claude Code's lifecycle - like PreToolUse (before tool execution), ...
+      - generic [ref=e950]:
+        - generic [ref=e955]:
+          - heading "用户还搜索了" [level=2] [ref=e957]
+          - generic [ref=e959]:
+            - generic [ref=e960]:
+              - link "Claude code 怎么 用" [ref=e964] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+code+%E6%80%8E%E4%B9%88+%E7%94%A8&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhPEAE
+                - generic [ref=e965]:
+                  - generic [ref=e970]: Claude code 怎么 用
+                  - img [ref=e974]
+              - link "Claude code 官网" [ref=e979] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+code+%E5%AE%98%E7%BD%91&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhZEAE
+                - generic [ref=e980]:
+                  - generic [ref=e985]: Claude code 官网
+                  - img [ref=e989]
+              - link "Claude code 是 哪个 公司 的" [ref=e994] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+code+%E6%98%AF+%E5%93%AA%E4%B8%AA+%E5%85%AC%E5%8F%B8+%E7%9A%84&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhaEAE
+                - generic [ref=e995]:
+                  - generic [ref=e1000]: Claude code 是 哪个 公司 的
+                  - img [ref=e1004]
+              - link "Claude code 下载" [ref=e1009] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+code+%E4%B8%8B%E8%BD%BD&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhYEAE
+                - generic [ref=e1010]:
+                  - generic [ref=e1015]: Claude code 下载
+                  - img [ref=e1019]
+            - generic [ref=e1021]:
+              - link "Claude code 开源 吗" [ref=e1025] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+code+%E5%BC%80%E6%BA%90+%E5%90%97&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhTEAE
+                - generic [ref=e1026]:
+                  - generic [ref=e1031]: Claude code 开源 吗
+                  - img [ref=e1035]
+              - link "Claude code 怎么 安装" [ref=e1040] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+code+%E6%80%8E%E4%B9%88+%E5%AE%89%E8%A3%85&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhREAE
+                - generic [ref=e1041]:
+                  - generic [ref=e1046]: Claude code 怎么 安装
+                  - img [ref=e1050]
+              - link "Claude 和 claude code 有 什么 区别" [ref=e1055] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+%E5%92%8C+claude+code+%E6%9C%89+%E4%BB%80%E4%B9%88+%E5%8C%BA%E5%88%AB&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhSEAE
+                - generic [ref=e1056]:
+                  - generic [ref=e1061]: Claude 和 claude code 有 什么 区别
+                  - img [ref=e1065]
+              - link "Claude code 中文 官网" [ref=e1070] [cursor=pointer]:
+                - /url: /search?sca_esv=4074d84388868a32&q=Claude+code+%E4%B8%AD%E6%96%87+%E5%AE%98%E7%BD%91&sa=X&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q1QJ6BAhQEAE
+                - generic [ref=e1071]:
+                  - generic [ref=e1076]: Claude code 中文 官网
+                  - img [ref=e1080]
+        - navigation [ref=e1082]:
+          - heading "网页导航" [level=1] [ref=e1083]
+          - text: "1"
+          - link "Page 2" [ref=e1086] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=10&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAE
+            - text: "2"
+          - link "Page 3" [ref=e1088] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=20&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAG
+            - text: "3"
+          - link "Page 4" [ref=e1090] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=30&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAI
+            - text: "4"
+          - link "Page 5" [ref=e1092] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=40&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAK
+            - text: "5"
+          - link "Page 6" [ref=e1094] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=50&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAM
+            - text: "6"
+          - link "Page 7" [ref=e1096] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=60&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAO
+            - text: "7"
+          - link "Page 8" [ref=e1098] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=70&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAQ
+            - text: "8"
+          - link "Page 9" [ref=e1100] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=80&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAS
+            - text: "9"
+          - link "Page 10" [ref=e1102] [cursor=pointer]:
+            - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=90&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8tMDegQITRAU
+            - text: "10"
+          - heading "下一页" [level=2] [ref=e1104]:
+            - link "下一页" [ref=e1105] [cursor=pointer]:
+              - /url: /search?q=Claude+Code&sca_esv=4074d84388868a32&ei=FMDgaf-4C6_akPIPw5n96AQ&start=10&sa=N&sstk=Af77f_d015RLouMGndA6pToeWxZQKNHsfu1jHsixcpoVtJ11Zov5uzthbj-MTwb1_iYJPQHo5Ct6PY-ZysYtSutb14gbUv36BIfFsQ&ved=2ahUKEwj_kpDXmvKTAxUvLUQIHcNMH00Q8NMDegQITRAW
+              - generic [ref=e1107]: 下一页
+      - navigation
+    - contentinfo [ref=e1110]:
+      - heading "页脚链接" [level=1] [ref=e1111]
+      - generic [ref=e1115]:
+        - generic [ref=e1119]:
+          - button "美国 - 是根据您的 IP 地址推断出来的" [ref=e1121] [cursor=pointer]:
+            - generic [ref=e1122]: 美国
+            - generic [ref=e1124]:
+              - text: "-"
+              - generic [ref=e1125]: 是根据您的 IP 地址推断出来的
+          - text: "-"
+          - button "更新位置信息" [ref=e1127] [cursor=pointer]: 更新位置信息
+        - generic [ref=e1130]:
+          - link "帮助" [ref=e1131] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e1132] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e1133] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e1134] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

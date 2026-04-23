@@ -1,0 +1,298 @@
+﻿mvn : Picked up JAVA_TOOL_OPTIONS: -Dfile
+.encoding=UTF-8
+所在位置 行:1 字符: 1
++ mvn compile -DskipTests -pl syh-wechat 
+-am 2>&1 | Out-String | Set-Co ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo          : NotSpecifi 
+   ed: (Picked up JAVA_....encoding=UTF  
+  -8:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeComm 
+   andError
+ 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] SenYeHui SaaS Platform                                             [pom]
+[INFO] syh-common                                                         [jar]
+[INFO] syh-tenant                                                         [jar]
+[INFO] syh-security                                                       [jar]
+[INFO] syh-event                                                          [jar]
+[INFO] syh-registration                                                   [jar]
+[INFO] syh-wechat                                                         [jar]
+[INFO] 
+[INFO] -----------------------< com.senyehui:senyehui >------------------------
+[INFO] Building SenYeHui SaaS Platform 1.0.0-SNAPSHOT                     [1/7]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-common >-----------------------
+[INFO] Building syh-common 1.0.0-SNAPSHOT                                 [2/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-common ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-common\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-common\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-tenant >-----------------------
+[INFO] Building syh-tenant 1.0.0-SNAPSHOT                                 [3/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-tenant ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-tenant\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-tenant\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-tenant ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ---------------------< com.senyehui:syh-security >----------------------
+[INFO] Building syh-security 1.0.0-SNAPSHOT                               [4/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-security ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-security\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-security\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -----------------------< com.senyehui:syh-event >-----------------------
+[INFO] Building syh-event 1.0.0-SNAPSHOT                                  [5/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-event ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-event\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-event\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-event ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -------------------< com.senyehui:syh-registration >--------------------
+[INFO] Building syh-registration 1.0.0-SNAPSHOT                           [6/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-registration ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-registration\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-registration\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-registration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ----------------------< com.senyehui:syh-wechat >-----------------------
+[INFO] Building syh-wechat 1.0.0-SNAPSHOT                                 [7/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ syh-wechat ---
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-wechat\src\main\resources
+[INFO] skip non existing resourceDirectory D:\senyehui\syh-wechat\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ syh-wechat ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 6 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[6,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[14,2] 鎵句笉鍒扮鍙?  绗﹀彿: 绫?RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[9,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[10,27] 绋嬪簭鍖卨ombok.extern.slf4j涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[22,2] 鎵句笉鍒扮鍙?  绗﹀彿: 绫?Slf4j
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[24,2] 鎵句笉鍒扮鍙?  绗﹀彿: 绫?RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[5,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[13,2] 鎵句笉鍒扮鍙?  绗﹀彿: 绫?Data
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[6,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[14,2] 鎵句笉鍒扮鍙?  绗﹀彿: 绫?RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[54,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setOrderNo(java.lang.String)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[55,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setRegistrationId(java.lang.Long)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[56,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setEventId(java.lang.Long)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[57,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setUserId(java.lang.Long)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[58,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setAmount(java.math.BigDecimal)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[59,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setStatus(int)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[60,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setPayChannel(java.lang.String)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[61,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setExpireTime(java.time.LocalDateTime)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,9] 鎵句笉鍒扮鍙?  绗﹀彿:   鍙橀噺 log
+  浣嶇疆: 绫?com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,56] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getOrderNo()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,76] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getAmount()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[71,18] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getStatus()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[74,18] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getExpireTime()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[74,51] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getExpireTime()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[78,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setStatus(int)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[79,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setPayTime(java.time.LocalDateTime)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[80,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setTransactionId(java.lang.String)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[81,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setPayChannel(java.lang.String)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[84,63] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getRegistrationId()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[88,36] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getOrderNo()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[92,9] 鎵句笉鍒扮鍙?  绗﹀彿:   鍙橀噺 log
+  浣嶇疆: 绫?com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[92,65] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getAmount()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[99,18] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getStatus()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[103,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setStatus(int)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[104,14] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 setRefundTime(java.time.LocalDateTime)
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[105,36] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getAmount()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[108,63] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getRegistrationId()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[114,9] 鎵句笉鍒扮鍙?  绗﹀彿:   鍙橀噺 log
+  浣嶇疆: 绫?com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[114,63] 鎵句笉鍒扮鍙?  绗﹀彿:   鏂规硶 getAmount()
+  浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[INFO] 39 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SenYeHui SaaS Platform 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] SenYeHui SaaS Platform ............................. SUCCESS [  0.006 s]
+[INFO] syh-common ......................................... SUCCESS [  0.830 s]
+[INFO] syh-tenant ......................................... SUCCESS [  0.064 s]
+[INFO] syh-security ....................................... SUCCESS [  0.090 s]
+[INFO] syh-event .......................................... SUCCESS [  0.057 s]
+[INFO] syh-registration ................................... SUCCESS [  0.202 s]
+[INFO] syh-wechat ......................................... FAILURE [  1.725 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.480 s
+[INFO] Finished at: 2026-04-01T15:22:16+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project syh-wechat: Compilation failure: Compilation failure: 
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[6,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PaymentController.java:[14,2] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿: 绫?RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[9,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[10,27] 绋嬪簭鍖卨ombok.extern.slf4j涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[22,2] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿: 绫?Slf4j
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[24,2] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿: 绫?RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[5,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/entity/PayOrder.java:[13,2] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿: 绫?Data
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[6,14] 绋嬪簭鍖卨ombok涓嶅瓨鍦?
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/controller/PayManageController.java:[14,2] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿: 绫?RequiredArgsConstructor
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[54,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setOrderNo(java.lang.String)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[55,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setRegistrationId(java.lang.Long)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[56,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setEventId(java.lang.Long)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[57,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setUserId(java.lang.Long)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[58,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setAmount(java.math.BigDecimal)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[59,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setStatus(int)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[60,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setPayChannel(java.lang.String)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[61,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setExpireTime(java.time.LocalDateTime)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,9] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鍙橀噺 log
+[ERROR]   浣嶇疆: 绫?com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,56] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getOrderNo()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[64,76] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getAmount()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[71,18] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getStatus()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[74,18] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getExpireTime()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[74,51] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getExpireTime()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[78,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setStatus(int)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[79,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setPayTime(java.time.LocalDateTime)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[80,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setTransactionId(java.lang.String)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[81,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setPayChannel(java.lang.String)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[84,63] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getRegistrationId()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[88,36] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getOrderNo()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[92,9] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鍙橀噺 log
+[ERROR]   浣嶇疆: 绫?com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[92,65] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getAmount()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[99,18] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getStatus()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[103,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setStatus(int)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[104,14] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 setRefundTime(java.time.LocalDateTime)
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[105,36] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getAmount()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[108,63] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getRegistrationId()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[114,9] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鍙橀噺 log
+[ERROR]   浣嶇疆: 绫?com.senyehui.wechat.service.PaymentService
+[ERROR] /D:/senyehui/syh-wechat/src/main/java/com/senyehui/wechat/service/PaymentService.java:[114,63] 鎵句笉鍒扮鍙?
+[ERROR]   绗﹀彿:   鏂规硶 getAmount()
+[ERROR]   浣嶇疆: 绫诲瀷涓篶om.senyehui.wechat.entity.PayOrder鐨勫彉閲?order
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :syh-wechat
+
