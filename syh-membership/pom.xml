@@ -10,31 +10,50 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>syh-registration</artifactId>
-    <description>报名管理模块</description>
+    <artifactId>syh-membership</artifactId>
+    <name>SYH Membership Service</name>
+    <description>会员管理服务</description>
 
     <dependencies>
+        <!-- 内部依赖 -->
         <dependency>
             <groupId>com.senyehui</groupId>
             <artifactId>syh-common</artifactId>
         </dependency>
         <dependency>
             <groupId>com.senyehui</groupId>
-            <artifactId>syh-event</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.senyehui</groupId>
-            <artifactId>syh-security</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.senyehui</groupId>
-            <artifactId>syh-membership</artifactId>
+            <artifactId>syh-tenant</artifactId>
         </dependency>
 
-        <!-- Redisson 分布式锁 -->
+        <!-- Spring Boot Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- MyBatis Plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+        </dependency>
+
+        <!-- MySQL -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Redis -->
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson-spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- Validation -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
         <!-- Lombok -->

@@ -15,7 +15,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         "com.senyehui.event.mapper",
         "com.senyehui.registration.mapper",
         "com.senyehui.form.mapper",
-        "com.senyehui.wechat.mapper"
+        "com.senyehui.wechat.mapper",
+        "com.senyehui.membership.mapper"
 })
 public class SyhAdminApplication {
 

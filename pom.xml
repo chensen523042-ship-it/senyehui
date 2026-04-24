@@ -26,6 +26,7 @@
         <module>syh-registration</module>
         <module>syh-form</module>
         <module>syh-wechat</module>
+        <module>syh-membership</module>
         <module>syh-admin</module>
         <module>syh-api</module>
     </modules>
@@ -76,6 +77,11 @@
             <dependency>
                 <groupId>com.senyehui</groupId>
                 <artifactId>syh-wechat</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.senyehui</groupId>
+                <artifactId>syh-membership</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

@@ -27,9 +27,21 @@ const routes = [
   },
   {
     path: '/my',
+    name: 'Profile',
+    component: () => import('@/views/ProfileView.vue'),
+    meta: { title: '我的', requiresAuth: true }
+  },
+  {
+    path: '/my/registrations',
     name: 'MyRegistrations',
     component: () => import('@/views/MyRegistrations.vue'),
     meta: { title: '我的报名', requiresAuth: true }
+  },
+  {
+    path: '/membership',
+    name: 'MembershipCenter',
+    component: () => import('@/views/membership/MembershipCenter.vue'),
+    meta: { title: '会员中心', requiresAuth: true }
   },
   {
     path: '/login',

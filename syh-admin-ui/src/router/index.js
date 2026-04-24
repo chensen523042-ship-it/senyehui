@@ -106,6 +106,18 @@ const routes = [
         name: 'Statistics',
         component: () => import('@/views/statistics/StatisticsView.vue'),
         meta: { title: '数据统计', icon: 'DataLine' }
+      },
+      {
+        path: 'membership/list',
+        name: 'MembershipList',
+        component: () => import('@/views/membership/MembershipList.vue'),
+        meta: { title: '会员管理', icon: 'Postcard' }
+      },
+      {
+        path: 'membership/config',
+        name: 'MembershipConfig',
+        component: () => import('@/views/membership/ConfigManage.vue'),
+        meta: { title: '会员配置', icon: 'Setting' }
       }
     ]
   },
